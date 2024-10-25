@@ -10,13 +10,16 @@ Setup Instructions
    cd project_name
    
 2. Install Python Dependencies:
+   ```bash
      pip install -r python_code/requirements.txt
 
-3. Create the database in SQL Server using SSMS.
+4. Create the database in SQL Server using SSMS.
    Run the SQL schema:
+   ```bash
      psql -U your_user -d my_database < sql_scripts/schema.sql
    
-4. Run the Application:
+6. Run the Application:
+   ```bash
      python python_code/main.py
 
 
