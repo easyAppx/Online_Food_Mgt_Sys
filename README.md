@@ -18,9 +18,9 @@ Setup Instructions
    ```bash
      psql -U your_user -d my_database < sql_scripts/schema.sql
    
-6. Run the Application:
+6. Run the Application: Navigate to the python_code folder where the file is and type cmd;
    ```bash
-     python python_code/main.py
+     python "file_name.py"
 
 
 
